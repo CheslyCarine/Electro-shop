@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ventes1
+{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 80px;
+    color: #424144;
+    margin-bottom: 70px;
+}
+
+.section-ventes
+{
+    padding: 90px;
+}
+
+.ventes
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.ventes .carte
+{
+    width: 310px;
+    background:#f5f5f5;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ventes .carte img
+{
+    border-radius: 10px;
+}
+
+.ventes .carte .description
+{
+    padding: 5px 20px;
+    opacity: 0.8;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ventes .carte .titre
+{
+    font-weight: 900;
+    font-size: 20px;
+    color: #424144;
+    padding: 0 20px;
+}
+
+.ventes .carte .box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.ventes .carte .prix
+{
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ventes .carte .prix1
+{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ventes .carte .achat 
+{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 18px;
+    border-radius: 5px;
+    color: red;
+}
+
+.ventes .carte .box .achat:hover
+{
+    cursor: pointer;
+    background: black;
+    color: white;
+}

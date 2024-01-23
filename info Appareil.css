@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.row
+{
+    padding-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+ 
+ 
+.col-2a 
+{
+    justify-content: center;
+}
+ 
+.col-2a p
+{
+    color: red;
+}
+/* Slide */
+.slider-container
+{
+    max-width: 80px;
+    
+    margin: auto;
+    height: 30px;
+    overflow:hidden;
+}
+ 
+.menu
+{
+    position: absolute;
+    left: 0;
+    width: auto;
+    bottom: 0;
+    text-align: center;
+}
+.menu label
+{
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 -12em 2em;
+    margin-left: 200px;
+    
+}
+ 
+.menu label:hover, .menu label:focus
+{
+    background: #c91c1c;
+    margin-top: -100px;
+}
+ 
+.slide-input
+{
+    opacity: 0;
+}
+ 
+.slide-img
+{
+    position:absolute;
+    margin-top: 200px;
+    top: 0;
+    left: 0;
+    
+}
+[id^=slide]:checked + .slide-img{
+    left: 20;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+ 
+ 
+ /* Colonnes */
+ .col-3c
+ {
+    margin-left: -200px;
+ }
+ .col-3a
+ {
+    margin-right: 100px;
+    
+ }
+ .col-3c h2
+ {
+    color: #dd0909;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large ;
+ }
+
+ /* Ajouter au panier */
+ 
+ .panier-box button
+ {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 40px;
+    padding-right:40px;
+    border: 0;
+    height: 30px;
+    text-size-adjust: 20px;
+    
+    
+ }
+ 
+.panier-box :hover
+{
+    background: #fc3131c0;
+}
+
+
+

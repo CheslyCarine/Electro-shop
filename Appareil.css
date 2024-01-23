@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+.article
+{
+    padding-top: 300px ;
+    padding-bottom: 200px;
+}
+ 
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     
+}
+.row p
+{
+    margin-left:  20px;
+}
+ .row h3
+ {
+    margin-left: 20px;
+ }
+ 
+ 
+ 
